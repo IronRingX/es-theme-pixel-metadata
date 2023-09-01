@@ -181,10 +181,15 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 			<fontSize>0.025</fontSize>
 		</text>
 	
+		<text name="md_lbl_releasedate">
+			<pos>0.566 0.477</pos>
+		</text>
 
 		<datetime name="md_releasedate">
 			<color>ffffff</color>
-			<pos>0.566 0.465</pos>
+			<format>%Y</format>
+			<pos>0.680 0.475</pos>
+			<size>0 0</size>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.025</fontSize>
@@ -198,20 +203,12 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 			<pos>0.566 0.568</pos>
 		</text>
 		
-		<datetime name="md_lastplayed">
-			<color>ffffff</color>
-			<pos>0.566 0.601</pos>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-		</datetime>
-		
 		<text name="md_lbl_players">
 			<pos>0.774 0.477</pos>
 		</text>
 
 		<text name="md_players">
-			<pos>0.845 0.477</pos>
+			<pos>0.870 0.477</pos>
 		</text>
 		
 		<text name="md_publisher">
@@ -224,10 +221,6 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 			<filledPath>./art/star_filled.svg</filledPath>
 			<unfilledPath>./art/star_empty.svg</unfilledPath>
 		</rating>
-		
-		<text name="md_playcount">
-			<pos>0.774 0.615</pos>
-		</text>	
 
 		<text name="md_description">
 			<pos>0.567 0.663</pos>
